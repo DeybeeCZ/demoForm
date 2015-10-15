@@ -1,0 +1,155 @@
+2015-10-06T19:40:11.544+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] 
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] 
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] 
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-06T19:40:11.704+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-06T19:40:11.707+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-06T23:37:10.370+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-10-06T23:37:10.616+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-06T23:37:10.616+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-06T23:37:10.616+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-06T23:37:10.616+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-10-06T23:37:10.616+0000 I NETWORK  [signalProcessingThread] removing socket file: /opt/bitnami/mongodb/tmp/mongodb-27017.sock
+2015-10-06T23:37:10.703+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-06T23:37:10.703+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-06T23:37:10.790+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-06T23:37:10.790+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-06T23:37:10.791+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-06T23:37:10.791+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-06T23:37:10.791+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-10-07T14:21:39.613+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] 
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] 
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] 
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-07T14:21:39.811+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-07T14:21:40.808+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-07T23:34:02.917+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-10-07T23:34:02.917+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] removing socket file: /opt/bitnami/mongodb/tmp/mongodb-27017.sock
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-07T23:34:02.917+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-07T23:34:02.917+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-07T23:34:02.917+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-07T23:34:02.918+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-07T23:34:02.918+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-07T23:34:02.918+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-10-12T14:08:40.310+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] 
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] 
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] 
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-12T14:08:40.684+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-12T14:08:42.164+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-12T23:59:52.208+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-10-12T23:59:52.208+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] removing socket file: /opt/bitnami/mongodb/tmp/mongodb-27017.sock
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-12T23:59:52.208+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-12T23:59:52.208+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-12T23:59:52.208+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-12T23:59:52.208+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-12T23:59:52.208+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-12T23:59:52.208+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-10-13T14:17:43.684+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-13T14:17:43.955+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] 
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] 
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] 
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-13T14:17:43.956+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-13T14:17:45.479+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-13T23:29:22.345+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-10-13T23:29:22.345+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] removing socket file: /opt/bitnami/mongodb/tmp/mongodb-27017.sock
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-13T23:29:22.345+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-13T23:29:22.345+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-13T23:29:22.345+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-13T23:29:22.346+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-13T23:29:22.346+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-13T23:29:22.346+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-10-14T14:06:47.713+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] 
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] 
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] 
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-14T14:06:48.016+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-14T14:06:52.418+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-14T23:44:33.497+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-10-14T23:44:33.497+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-10-14T23:44:33.497+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-10-14T23:44:33.498+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-10-14T23:44:33.498+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-10-14T23:44:33.498+0000 I NETWORK  [signalProcessingThread] removing socket file: /opt/bitnami/mongodb/tmp/mongodb-27017.sock
+2015-10-14T23:44:33.498+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-10-14T23:44:33.498+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-10-14T23:44:33.498+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-10-14T23:44:33.498+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-10-14T23:44:33.498+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-10-14T23:44:33.498+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-10-14T23:44:33.498+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-10-15T14:21:23.179+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/opt/bitnami/mongodb/data 64-bit host=3096da20235a
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] 
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] 
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] 
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-15T14:21:23.395+0000 I CONTROL  [initandlisten] options: { config: "/opt/bitnami/mongodb/conf/mongodb.conf", net: { port: 27017, unixDomainSocket: { pathPrefix: "/opt/bitnami/mongodb/tmp" } }, processManagement: { fork: false }, security: { authorization: "enabled" }, setParameter: { enableLocalhostAuthBypass: "0" }, storage: { dbPath: "/opt/bitnami/mongodb/data", journal: { enabled: false } }, systemLog: { destination: "file", logAppend: true, path: "/opt/bitnami/mongodb/log/mongodb.log" } }
+2015-10-15T14:21:26.207+0000 I NETWORK  [initandlisten] waiting for connections on port 27017

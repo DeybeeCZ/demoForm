@@ -1,0 +1,32 @@
+web:
+  build: ../../imagePhpApp/
+  ports:
+    - "80:80"
+  volumes:
+    - ./dockerConfig/apache:/etc/apache2/sites-enabled
+    - .:/var/www/html:rw
+    - ./dockerData/logs/apache:/var/log/apache2
+#  links:
+#    - mongo
+files:
+  build: ../../monFiles1/
+  environment:
+   DEV_USER: frank
+   DEV_GROUP: frank
+  volumes:
+    - .:/var/files:rw
+#mongo:
+#  image: bitnami/mongodb
+#  environment:
+#    - MONGODB_PASSWORD=password123
+#  ports:
+#    - "27017:27017"
+#  volumes:
+#    - ./dockerData/logs/mongo:/bitnami/mongodb/logs
+#    - ./dockerData/db/mongo:/bitnami/mongodb/data
+#rabbitmq:
+#  ports:
+#    - "15672:15672"
+#  build: ../../rabbitmq3/
+#  environment:
+#    - RABBITMQ_NODENAME=my-rabbiy
